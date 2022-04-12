@@ -3,6 +3,7 @@ import SideMenu, { menuItems } from "./components/SideMenu";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
+import Footer from "./components/Footer/Footer";
 
 const Dashboard = () => <h1>Dashboard</h1>;
 const Content = () => <h1>Content</h1>;
@@ -76,6 +77,7 @@ function App() {
           </Switch> */}
         </div>
       </Router>
+      <Footer />
     </div>
   );
 }
